@@ -1,16 +1,19 @@
 # SopaDeLetras
 adaptacion en gradle REST, del app cmd SopaDePalabrasen maven.
-\n\n
-Usa JPA/H2\n
-1-POST completo\n
-2-PUT, en desarrollo solo hasta validacion de coordenadas ingresadas\n
-3-GET http://host/alphabetSoup/view/d041eaf2-0ac2-4376-812b-3e08be0bfd65, Endpoint para visualizar la sopa de letras, completo\n
-4-GET http://host/alphabetSoup/list/d041eaf2-0ac2-4376-812b-3e08be0bfd65, Endpoint para visualizar la lista de palabras de una sopa, al 50%\n
-\n\n
-La app REST es en la ruta:
-\n\n
+
+Usa JPA/H2
+1-POST completo
+2-PUT, en desarrollo solo hasta validacion de coordenadas ingresadas
+3-GET http://host/alphabetSoup/view/d041eaf2-0ac2-4376-812b-3e08be0bfd65, Endpoint para visualizar la sopa de letras, completo
+4-GET http://host/alphabetSoup/list/d041eaf2-0ac2-4376-812b-3e08be0bfd65, Endpoint para visualizar la lista de palabras de una sopa, al 50%
+
+Todo automatizado en .yalm, puerto 8088, nombre base datos acceso H
+
+
+La app REST es en la ruta: 
+
 Las app base para el desarrollo en:
-\n\n\n\n\n
+
 
 JSON importar en POSTMAN:
 {
