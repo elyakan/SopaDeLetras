@@ -1,0 +1,46 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: SopaDeLetras
+  datasource:
+    username: sa
+    url: jdbc:h2:mem:sopadeletrasdb
+    driverClassName: org.h2.Driver
+    password: ''
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    h2:
+      console:
+        enabled: true
+        path: /h2-console
+
+### Chassis Configs ###
+
+
+# Metrics starter properties
+metrics:
+  enabled: false
+
+# Logging starter properties
+logging:
+  level:
+    root: INFO
+  format: JSON
+  debug: false
+
+# Response wrapping settings
+web:
+  advice:
+    response:
+      formatting:
+        enabled: false
+
+
+
+
+
